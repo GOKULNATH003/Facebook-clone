@@ -1,0 +1,184 @@
+.container-fluid{
+   
+   
+    background-color: rgb(240, 242, 245);
+    
+    height: 100vh;
+}
+
+
+.bg{
+    border: 1px solid black;
+}
+.container-fluid .row .fbcont img{
+    width: 47%      ;
+    transform: translateX(-10px) translateY(-20px);
+}
+
+.container-fluid .row{
+    height: 90vh;
+    
+}
+
+.container-fluid .row .fbcont{
+    transform: translateX(155px) translateY(-10px);
+}
+.content{
+   
+    padding: 17px 5px 30px 5px;
+    border-radius: 10px ;
+    border: none;
+background-color: rgb(255, 255, 255);
+box-shadow:  0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+box-sizing: border-box;
+width: 83%  ;transform: translateX(-45px) translateY(0px);
+
+}
+
+.fbcont{
+    transform: translateY(-40px) translateX(60px);
+}
+.fbtxt{
+    transform: translateX(20px) translateY(-30px);
+
+    
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.content form span input{
+    border-radius: 5px;
+    height: 3.8vw;
+    border: 1px solid rgba(0,0,0,.1) ;
+    background:transparent;
+    outline-color: rgba(0,0,255,0.5);
+    width: 100% ;
+    /* padding: 5px; */
+   
+
+}
+
+.fpass{
+    text-decoration: none;
+    font-size: 1vw;
+
+}
+.fpass:hover{
+    text-decoration: underline;
+}
+
+hr{
+    width: 90%  ;
+}
+.login{
+    height: 7vh;
+    width: 100%  ;
+    text-align: center;
+    font-weight: 600;
+}
+.cnabtn{
+    background-color: rgb(23, 202, 74);
+    padding: 10px;
+    color: aliceblue;
+    width: 55%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: .5px;
+    transform: translateY(10px);
+}
+.cnabtn:hover{
+    background-color: rgb(24, 180, 68);
+    color: aliceblue;
+
+
+}
+input {
+   padding: 15px;
+    
+  }
+  
+ 
+
+.cont2{
+   width: 37%;
+   margin-left: 6%;
+   margin-top: 5%;
+   
+  
+}
+
+.ftxt{font-size: 1vw;transform: translateX(-40px) translateY(-25px);}
+
+
+.languages{
+    display: flex;
+    gap: 10px;
+
+}
+.languages div a{
+    color: rgba(0,0,0,0.5);
+text-decoration: none;
+font-size: .7rem ;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.languages div{ color: rgba(0,0,0,0.5);
+    text-decoration: none;
+    font-size: .7rem ;
+font-weight: 400;
+}
+.languages div a:hover{
+text-decoration: underline;
+
+}
+
+/* 
+.languages div:nth-child(11){
+    color:rgba(0,0,0,0.7);
+   
+width: 30px;
+height: 20px;
+    border: .1rem  solid rgba(0,0,0,0.2) ;
+    font-size:.8rem;
+    background-color:aliceblue;
+    text-align: center;
+    transition: .5s ease;
+    font-weight: 700;
+
+} */
+.link-btn{
+    border: .5px solid rgba(0,0,0,0.3);
+}
+.link-btn:hover{
+    background-color: rgb(218, 220, 221);
+}
+
+.footer{
+    margin-left: 13%;
+    color: rgba(0,0,0,0.5);
+font-family: Arial;
+
+}
+
+.options  a{
+    color: rgba(0,0,0,0.5);
+    text-decoration: none;
+    font-size: .7rem ;
+font-weight: 600;
+
+}
+.options  a:hover{
+text-decoration: underline;
+
+}
+.options a {
+    
+  padding-right : 10px;
+}
+
+.btm-txt{
+    color: rgba(0,0,0,0.5);
+    text-decoration: none;
+    font-size: .7rem ;
+font-weight: 400;
+}
